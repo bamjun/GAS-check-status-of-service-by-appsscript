@@ -1,5 +1,5 @@
 function checkPrivacyPolicy() {
-  var url = "URL_PAGE_PRIVATE_DOHOKIN"; // 원하는 URL로 변경하세요.
+  var url = URL_PAGE_PRIVATE_DOHOKIN; // 원하는 URL로 변경하세요.
   var response = UrlFetchApp.fetch(url);
   var htmlSource = response.getContentText();
   
